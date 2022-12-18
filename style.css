@@ -1,0 +1,41 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    
+}
+
+.qr-body {
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    justify-items: center;
+    border-radius: 10px;
+    width: 230px;
+    height: 360px;
+}
+
+.qrcode {
+    width: 210px;
+    height: 210px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.paragraph {
+    font-size: 12px;
+    text-align: center;
+    width: 200px;
+    color: gray;
+}
